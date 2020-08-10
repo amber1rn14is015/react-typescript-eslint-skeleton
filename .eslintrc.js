@@ -12,6 +12,7 @@ module.exports = {
   plugins: ['prettier'],
   rules: {
     '@typescript-eslint/no-var-requires': 0,
+    '@typescript-eslint/no-explicit-any': 'off',
     'linebreak-style': 0,
     'prettier/prettier': [
       'error',
